@@ -61,3 +61,23 @@
     min-height: 18.75rem;
     background-color: #ee82ee;
 }
+
+.AColonne{
+    flex-flow: column nowrap;
+    height: 131rem;
+    background-color: #ffffff;
+
+}
+.grey{
+    background-color: antiquewhite;
+}
+
+.Container{
+    min-height: calc((131rem - 46rem) / 3);
+}
+
+.Box4.Container{
+    min-height: 46rem;
+    background-color: bisque;
+
+}
