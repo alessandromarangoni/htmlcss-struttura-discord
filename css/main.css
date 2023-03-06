@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+
+.Margin0Auto{
+    margin: 0 auto;
+    max-width: 56.25rem;
+    background-color: aqua;
+}
+
+.DisplayFlex{
+    display: flex;
+}
+
+.Nav{
+    background-color: #daa520;
+    max-height: 2.1875;
+    justify-content: space-between;
+}
+
+.link{
+padding: .5rem;
+
+}
+
+.logo{
+    display: flex;
+    flex-basis: 20%;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.LinkBox{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-evenly;
+}
