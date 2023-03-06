@@ -76,8 +76,64 @@
     min-height: calc((131rem - 46rem) / 3);
 }
 
-.Box4.Container{
+/* .Box.quattro.Container{
     min-height: 46rem;
     background-color: bisque;
+} */
+
+/* .Margin0Auto{
+    margin: auto;
+    max-width: 56.25rem;
+    background-color: bisque
+    min-height: 23rem;
+} */
+
+.SessantaQuaranta{
+    display: flex;
+    min-width: 56.25rem;
+    min-height: 23rem;
+    /* background-color: bisque */
+}
+
+.Box.Uno.Container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sessanta{
+    flex-basis: 60%;
+    background-color: #1e90ff;
+}
+.Quaranta{
+    background-color: #ffc0cb;
+    flex-basis: 40%;
+}
+
+.Box.Due.Container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.Box.Tre.Container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Box.Quattro.Container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 46rem;
+    background-color: bisque;
+}
+.Cento{
 
 }
