@@ -183,9 +183,21 @@
     background-color: rgb(0, 139, 76)
 } */
 
-.ciao2{
-    width: 100px;
-    height: 100px;
-    background-color: #8b2222;
+.FootEndContainer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: 5.5rem;
+    background-color: #23272a;
+    border-top: 2px solid #d3d3d3;
 }
 
+.FootEndBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    min-width: 56.25rem;
+    min-height: 3.75rem;
+    background-color: #7fffd4;
+}
