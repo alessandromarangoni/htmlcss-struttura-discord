@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* .Margin0Auto{
-    margin: 0 auto;
-    max-width: 56.25rem;
-    background-color: aqua;
-} */
 /* qui do un background che sta nel retro del nav ed un padding */
 .BackNav{
     padding: 1rem;
@@ -61,71 +55,60 @@
     min-height: 18.75rem;
     background-color: #ee82ee;
 }
-
+/* dispongo il main in colonne */
 .AColonne{
     flex-flow: column nowrap;
     height: 131rem;
     background-color: #ffffff;
 
 }
+/* assegno lo sfondo piu scuro con la classe grey */
 .grey{
     background-color: #d3d3d3;
 }
-
+/* qui divido le tre colonne con le stesse dimensioni in base */
+/* all'altezza totale del diiv assegnato */
 .Container{
     min-height: calc((131rem - 46rem) / 3);
 }
-
-/* .Box.quattro.Container{
-    min-height: 46rem;
-    background-color: bisque;
-} */
-
-/* .Margin0Auto{
-    margin: auto;
-    max-width: 56.25rem;
-    background-color: bisque
-    min-height: 23rem;
-} */
-
+/* qui il contenuto suddiviso in 60% e 40% */
 .SessantaQuaranta{
     display: flex;
     min-width: 56.25rem;
     min-height: 23rem;
-    /* background-color: bisque */
 }
-
+/* centro il contenuto 1 section */
 .Box.Uno.Container{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
 }
-
+/* assegno il 60% del container */
 .Sessanta{
     flex-basis: 60%;
     background-color: #1e90ff;
 }
+/* assegno il 60% del container */
 .Quaranta{
     background-color: #ffc0cb;
     flex-basis: 40%;
 }
-
+/* seconda section */
 .Box.Due.Container{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content:center;
 }
-
-
+/* terza section */
 .Box.Tre.Container{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
 }
-
+/* quarta section */
 .Box.Quattro.Container{
     display: flex;
     flex-flow: row nowrap;
@@ -133,18 +116,12 @@
     justify-content: center;
     min-height: 46rem;
 }
+/* qui un container unico  */
 .Cento{
     background-color: #228b22;
     min-width: 56.25rem; 
     min-height: 42rem;
 }
-
-
-/* .FootContainer{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 .footer1container{
     display: flex;
     align-items: flex-start;
